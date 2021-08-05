@@ -1,0 +1,20 @@
+Task : Find out the most frequent number and its frequency.
+
+Write a program that;
+We will do a TR ID no validation study.
+For this, we will take the relevant value from the user via
+input (as in the mail validation section) and 
+perform validation control using the necessary regex pattern and if necessary conditions.
+We will make the styling changes of the warning messages in the span
+through the CSS classes we have defined (class change). (use of classList or className).
+
+Javascript TR Identity Number Verification Algorithm will also be as follows.
+Rules of the algorithm
++TR ID numbers consist of 11 digits.
++An algorithm established between the first 9 digits gives us the 10th step,
+and an algorithm established between the first 10 digits gives us the 11th step.
+Each digit contains a numerical value.
+The first digit cannot be 0.
+When the sum of the 1st, 5th, 7th and 9th digits is 7 times the sum of the 2nd, 4th, 6th and 8th digits, the remainder of the division by 10, that is, Mod10, gives us the 10th digit.
+1. 2. 3. 4. 5. 6. 7. 8. The remainder of the division by 10 of the sum of the 9th and 10th digits, that is Mod10, gives us the 11th digit.
+

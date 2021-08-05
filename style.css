@@ -1,0 +1,31 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    width: 50%;
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    }
+
+#span-valid{
+    color: greenyellow;
+}
+
+#span-invalid{
+    color: red;
+}
+
+@media(max-width: 700px){
+    div{
+        width: 100%;
+        min-height: 200px;
+    }
+}
